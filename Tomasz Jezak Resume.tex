@@ -1,0 +1,225 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex,colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to 0.5 inch on all sides
+\setlength{\oddsidemargin}{-0.5in}
+\setlength{\evensidemargin}{-0.5in}
+\setlength{\textwidth}{7.5in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{10in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\footskip}{0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeTJItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeTomaszheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+    \begin{itemize}[leftmargin=1em, label={$\circ$}]
+    % Add sub-bullet items here
+    \end{itemize}
+}
+\renewcommand{\labelitemi}{$\bullet$}   % main level = filled black bullet
+\renewcommand{\labelitemii}{$\circ$}    % second level = open circle
+
+\newcommand{\resumeProjectItem}[2]{
+  \item\textbf{#1} % Title as the main bullet
+  \vspace{-4pt} % Reduces space after the title
+  \begin{itemize}[leftmargin=2.5em,label=\textopenbullet]
+    \resumeTJItem{#2} % Inserts the sub-bullet text
+    \vspace{-8pt} % Reduces space after the sub-bullet
+  \end{itemize}
+  \vspace{-2pt} % Reduces space between this project and the next
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeTomaszHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeTomaszHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Tomasz Jezak} & Email : \href{mailto:tomaszjezak0@gmail.com}{tomaszjezak0@gmail.com} \\
+  \href{https://www.linkedin.com/in/tomasz-jezak/}{LinkedIn}, \href{https://github.com/tomaszjezak}{GitHub} & Mobile : +1-978-303-7366 \\
+\end{tabular*}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+
+\item
+  \textbf{University of California, San Diego} \hfill San Diego, CA \\
+  \textsc{M.S. in Computer Science, Specializing in Robotics and Machine Learning} \hfill \textit{Sep. 2025 -- Present}
+  \vspace{-6pt}
+  \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-2pt]
+    \item \textbf{Advisor}: Henrik Christensen; \textbf{Thesis}: Autonomous Driving in Urban Environments
+  \end{itemize}
+  \vspace{-3pt}
+
+\item
+  \textbf{University of California, Los Angeles} \hfill Los Angeles, CA \\
+  \textsc{B.S. in Applied Mathematics, Minor in Computation} \hfill \textit{Sep. 2020 -- Jun. 2024}
+\resumeSubHeadingListEnd
+\section{Professional Experience}
+\resumeSubHeadingListStart
+% COGNITIVE ROBOTICS
+\item
+  \textbf{Cognitive Robotics Laboratory} \hfill San Diego, CA\\
+  \textsc{Autonomous Vehicle Laboratory Researcher} \hfill \textit{Sep. 2025 -- Present}
+  \vspace{-6pt}
+  \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-1pt]
+    \item \textbf{Autonomous Car}
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}]
+
+      \item Evaluated \textbf{localization} methods using \textbf{LiDAR} and \textbf{IMU} fusion for accurate vehicle pose estimation.
+        \item Developed \textbf{ROS2} stack: drivers and launch pipelines dockerized for reproducible deployment.
+
+      \end{itemize}
+
+  \end{itemize}
+
+% AMAZON
+\item
+  \textbf{Amazon Robotics} \hfill North Reading, MA \\
+  \textsc{Machine Learning + Robotics Systems Co-op} \hfill \textit{Aug. 2024 -- May 2025}
+  \vspace{-6pt}
+  \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-1pt]
+    \item \textbf{ML Pipeline and Multi-Modal Dataset}
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}]
+        \item Engineered \textbf{ML pipeline (500GB+/day)}: record data → preprocess → label → train → evals; automated workflow via \textbf{AWS} (S3, ECS, Lambda, EventBridge, Batch, SageMaker) and \textbf{MLFlow}.
+        \item Created a\textbf{ multi-modal human detection dataset (1.5M images, 500 hours of video)} spanning RGB, thermal, depth, radar, and time-of-flight, paving the way to \textbf{safe human-robot interaction}.
+        \item Architected an \textbf{automated data collection} system: \textbf{7 five-sensor rigs} across varied warehouse environments, using \textbf{ROS2} for synchronized capture of diverse, multimodal human activity data.
+        \item Benchmarked\textbf{ segmentation }and\textbf{ detection models} (SAM2, Detectron) on RGB and thermal data.
+      \end{itemize}
+
+    \item \textbf{Swarm Robotics Control Framework}
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}]
+        \item Engineered a \textbf{ROS2}-based \textbf{multi-robot control} system for warehouse robots; ported \textbf{micro-ROS} onto \textbf{ESP32} and developed drivers (ESP-IDF) to stream robot sensor data, enabling \textbf{localization} and \textbf{waypoint navigation}; designed a PyQt \textbf{GUI} for individual and synchronized commands.
+      \end{itemize}
+
+  \end{itemize}
+
+
+% SENTIUM
+\item
+  \textbf{\href{https://sentium-d639f.web.app/}{Sentium}} \hfill Los Angeles, CA \\
+  \textsc{Machine Learning Engineer} \hfill \textit{Oct. 2023 -- Aug. 2024}
+  \vspace{-6pt}
+  \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-1pt]
+    \item \textbf{Custom Data Marketplace: "Blocky"} 
+      \href{https://www.youtube.com/watch?v=RTPljR0zBP0}{[Video]} 
+      \href{https://github.com/tomaszjezak/Blocky}{[Repo]}
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}]
+        \item Built \textbf{data marketplace} enabling AI companies to reduce \textbf{bias} by commissioning niche datasets.
+        \item Created synthetic dataset to fine-tune \textbf{BLOOM-3b} for extracting keywords from company queries.
+      \end{itemize}
+
+  \end{itemize}
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-1pt]
+      \item \textsc{\textbf{Academic Question Answering (AQA})} 
+      \href{https://drive.google.com/file/d/1ZrXaqRreqks5QQcP6_j6YSXt2dtIq9YQ/view?usp=sharing}{[Paper]} 
+      \href{https://www.youtube.com/watch?v=b966wf8bGmU}{[Video]}
+      \href{https://github.com/tomaszjezak/KDD_AQA}{[Repo]} 
+      
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}, itemsep=-1pt]  % stars for sub-bullets
+          \item Developed a \textbf{dense retrieval model }for AQA utilizing \textbf{SupCon loss} (first application to text retrieval).
+          \item Incorporated \textbf{hard negative mining} during training to enhance model robustness and implemented \textbf{HNSW} for efficient nearest-neighbor retrieval, achieving \textbf{leaderboard score 0.119 (35th place)}.
+      \end{itemize}
+
+      \item \textbf{\textsc{Image Diffusion Fine-Tuning for Fan Art}} 
+      \href{https://ucladeepvision.github.io/CS188-Projects-2024Winter/2024/03/20/team39-Finetuning-Stable-Diffusion.html}{[Paper]}
+      \begin{itemize}[leftmargin=1.5em, label={$\ast$}, itemsep=-1pt]
+          \item Fine-tuned \textbf{Stable Diffusion}, \textbf{SDXL} with custom dataset to synthesize fan art; hacked the DreamBooth technique to store environments across diffusions instead of objects.
+      \end{itemize}
+
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+  \vspace{-4pt}
+ \resumeSubHeadingListStart
+   \begin{itemize}[leftmargin=1em, label={$\circ$}, itemsep=-1pt]
+     \item \textbf{Languages}: Python, C/C++, MATLAB, Java, SQL
+     \item \textbf{Technologies}: AWS, Docker, Git, Bash, Snowflake, Spark, ESP32, CUDA, Linux
+     \item \textbf{Frameworks \& Libraries}: ROS, PyTorch, TensorFlow, OpenCV, Scikit-learn, MLFlow, PyQt
+   \end{itemize}
+ \resumeSubHeadingListEnd
+
+
+\end{document}
