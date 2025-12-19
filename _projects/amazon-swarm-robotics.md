@@ -2,7 +2,7 @@
 layout: page
 title: Swarm Robotics Control
 description: Multi-robot control system for warehouse robots at Amazon Robotics
-img: assets/img/5.jpg
+img: assets/img/swarm-robots.jpg
 importance: 2
 category: research
 ---

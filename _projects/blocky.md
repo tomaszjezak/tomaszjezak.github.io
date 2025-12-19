@@ -2,7 +2,7 @@
 layout: page
 title: "Blocky: Data Marketplace"
 description: Custom data marketplace for reducing AI bias
-img: assets/img/6.jpg
+img: assets/img/blocky.png
 importance: 1
 category: research
 github: https://github.com/tomaszjezak/Blocky

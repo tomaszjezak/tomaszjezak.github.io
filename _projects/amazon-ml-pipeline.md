@@ -2,7 +2,7 @@
 layout: page
 title: Safety-Critical, Multi-Modal ML Pipeline and Dataset
 description: Large-scale ML pipeline and human detection dataset at Amazon Robotics
-img: assets/img/3.jpg
+img: assets/img/ml-pipeline.jpeg
 importance: 1
 category: research
 ---

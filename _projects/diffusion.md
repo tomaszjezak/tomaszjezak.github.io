@@ -2,7 +2,7 @@
 layout: page
 title: Image Diffusion Fine-Tuning
 description: Fine-tuning Stable Diffusion for Fan Art generation
-img: assets/img/9.jpg
+img: assets/img/diffusion.png
 importance: 2
 category: research
 ---

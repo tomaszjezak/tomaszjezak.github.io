@@ -2,7 +2,7 @@
 layout: page
 title: Campus Car Autonomy Stack
 description: Localization and ROS2 development at UCSD Cognitive Robotics Lab
-img: assets/img/1.jpg
+img: assets/img/campus-car.jpg
 importance: 1
 category: research
 ---
