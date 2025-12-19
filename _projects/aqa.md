@@ -3,7 +3,7 @@ layout: page
 title: Academic Question Answering
 description: Dense retrieval with Supervised Contrastive Learning for the KDD Cup 2024
 img: assets/img/aqa.png
-importance: 1
+importance: 4
 category: research
 github: https://github.com/tomaszjezak/KDD_AQA
 ---
