@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: sydney.jpg
+  image: sydney.jpeg
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master's student in Computer Science at UC San Diego, specializing in Robotics and Machine Learning, where I am advised by [Henrik Christensen](https://hichristensen.com/).
+I'm a graduate student in the Department of Computer Science and Engineering at UCSD, specializing in Robotics and Machine Learning, where I am advised by [Henrik Christensen](https://hichristensen.com/).
 
 Previously, I spent a year at [Amazon Robotics](https://www.aboutamazon.com/news/tag/robotics), where I worked on machine learning and robotics systems, advised by [Yuri Ivanov](https://www.linkedin.com/in/yivanov/).
 
