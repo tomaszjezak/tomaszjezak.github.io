@@ -405,16 +405,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-from-ucla-with-a-b-s-in-applied-mathematics-specializing-in-computation",
+          title: '🎓 Graduated from UCLA with a B.S. in Applied Mathematics, specializing in Computation....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-machine-learning-and-robotics-co-op-at-amazon-robotics",
+          title: '🤖 Started Machine Learning and Robotics Co-op at Amazon Robotics.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-completed-9-month-machine-learning-and-robotics-co-op-at-amazon-robotics",
+          title: '✅ Completed 9-month Machine Learning and Robotics Co-op at Amazon Robotics.',
+          description: "",
+          section: "News",},{id: "news-began-m-s-in-computer-science-at-uc-san-diego-specializing-in-robotics-and-machine-learning",
+          title: '🎉 Began M.S. in Computer Science at UC San Diego, specializing in Robotics...',
           description: "",
           section: "News",},{id: "projects-safety-critical-multi-modal-ml-pipeline-and-dataset",
           title: 'Safety-Critical, Multi-Modal ML Pipeline and Dataset',
