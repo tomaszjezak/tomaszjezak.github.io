@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-papers",
-          title: "papers",
-          description: "Academic papers and research projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/papers/";
-          },
-        },{id: "nav-papers",
+  },{id: "nav-papers",
           title: "papers",
           description: "Academic papers and research projects.",
           section: "Navigation",
@@ -57,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
